@@ -1,0 +1,689 @@
+// Here you can change the all gradient background colors
+$gradient-color-bg-six: #4b68da;
+$gradient-color-left-bg-six: #4b68da;
+$gradient-color-right-bg-six: #b06ab3;
+
+// Template text and icon colors
+$primary-color-six: #4b68da; 
+
+.gradient-bg {
+    background: $gradient-color-bg-six;
+    background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+}
+.default-button { 
+    background: $gradient-color-bg-six;
+    background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    &:hover {
+        box-shadow: 0 0 10px $primary-color-six;
+    }
+}
+.section-title {
+    h2::after {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+    h2::before {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+/* Preloader style */
+.preloader-wrap {
+    background: #fff none repeat scroll 0 0;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    .preloader {
+        left: 50%;
+        margin: -20px 0 0 -20px;
+        position: absolute;
+        top: 50%;
+    }
+}
+.preloader {
+    position: relative;
+    width: 65px;
+    margin: 6em auto;
+    span {
+        position: absolute;
+        display: block;
+        bottom: 0;
+        width: 9px;
+        height: 5px;
+        border-radius: 5px;
+        background: rgba(0, 0, 0, 0.1);
+        -webkit-animation: preloader 2s infinite ease-in-out;
+        animation: preloader 2s infinite ease-in-out;
+    }
+    span:nth-child(2) {
+        left: 11px;
+        -webkit-animation-delay: 200ms;
+        animation-delay: 200ms;
+    }
+    span:nth-child(3) {
+        left: 22px;
+        -webkit-animation-delay: 400ms;
+        animation-delay: 400ms;
+    }
+    span:nth-child(4) {
+        left: 33px;
+        -webkit-animation-delay: 600ms;
+        animation-delay: 600ms;
+    }
+    span:nth-child(5) {
+        left: 44px;
+        -webkit-animation-delay: 800ms;
+        animation-delay: 800ms;
+    }
+    span:nth-child(6) {
+        left: 55px;
+        -webkit-animation-delay: 1000ms;
+        animation-delay: 1000ms;
+    }
+}
+@-webkit-keyframes preloader {
+    0% {
+        height: 5px;
+        -o-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        background: rgba(0, 0, 0, 0.1);
+    }
+    25% {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        height: 30px;
+        -o-transform: translateY(15px);
+        -ms-transform: translateY(15px);
+        -webkit-transform: translateY(15px);
+        transform: translateY(15px);
+    }
+    50%, 100% {
+        height: 5px;
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        background: rgba(0, 0, 0, 0.1);
+    }
+}
+@keyframes preloader {
+    0% {
+        height: 5px;
+        -o-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        background: rgba(0, 0, 0, 0.1);
+    }
+    25% {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        height: 30px;
+        -webkit-transform: translateY(15px);
+        -ms-transform: translateY(15px);
+        -o-transform: translateY(15px);
+        transform: translateY(15px);
+    }
+    50%,
+    100% {
+        height: 5px;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+        background: rgba(0, 0, 0, 0.1);
+    }
+}
+/* End Preloader style */
+
+@media only screen and (min-width:768px) {
+    .top-menu.menu-shrink {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.navbar-white {
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                &:focus, &:hover {
+                    color: $primary-color-six !important;
+                }
+                &::before {
+                    background: $gradient-color-bg-six;
+                    background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+                    background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+                    background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+                    background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+                }
+            }
+            .active > a, .active > a:focus, .active > a:hover {
+                color: $primary-color-six !important;
+            }
+        }
+    }
+}
+
+.slider-item-img-bg {
+    &::before {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.item-img-bg {
+    &::after {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.homes-bg-img {
+    &::after {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.particle-bg {
+    position: relative;
+    &::after {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.video-bg {
+    position: relative;
+    &::after {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.app-about-text {
+    h3 {
+        &::after {
+            background: $gradient-color-bg-six;
+            background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+            background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+            background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+            background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        }
+    }
+    ul {
+        li {
+            i {
+                color: $primary-color-six;
+            }
+        }
+    }
+}
+.single-hiw-feature {
+    i {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        &:hover i {
+            box-shadow: 0 0 10px $primary-color-six;
+        }
+    }
+}
+.video-demo-content {
+    &::before {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.single-feature {
+    &::after {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+    .feature-icon {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.counter-stats {
+    &::after {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.screenshot-item {
+    &:hover .screenshot-image::before {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.screenshots-modal {
+    .close {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        &:hover, &:focus {
+            box-shadow: 0 0 10px $primary-color-six;
+        }
+    }
+}
+.screenshot-details-text {
+    .title {
+        &::after {
+            background: $gradient-color-bg-six;
+            background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+            background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+            background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+            background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        }
+    }
+    ul {
+        li {
+            i {
+                color: $primary-color-six;
+            }
+        }
+    }
+}
+.testimonial-section {
+    &::after {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.testimonial-item {
+    .icofont-quote-left {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+    .pic {
+        box-shadow: 0 0 2px $primary-color-six;
+    }
+}
+.single-price-package {
+    .price-header {
+        .price-value {
+            background: $gradient-color-bg-six;
+            background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+            background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+            background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+            background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        }
+    }
+}
+.purchase-btn {
+    &::before {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.personal-price-package {
+    .purchase-btn {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.single-price-package:hover .purchase-btn {
+    background: $gradient-color-bg-six;
+    background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+}
+.faq-content {
+    .faq-title {
+        &::before {
+            background: $gradient-color-bg-six;
+            background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+            background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+            background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+            background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        }
+    }
+    .faq-title.active {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.accordion__item.active .accordion-header {
+    background: $gradient-color-bg-six;
+    background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+}
+.single-member {
+    .overlay {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.app-download-section {
+    &::after {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.single-blog-post {
+    .blog-date {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+    .blog-title {
+        a {
+            &:hover {
+                color: $primary-color-six;
+            }
+        }
+    }
+    .post-admin {
+        a {
+            color: $primary-color-six;
+        }
+    }
+    &:hover .read-more-btn {
+        color: $primary-color-six;
+    }
+}
+.single-blog-post-two {
+    .blog-title {
+        a {
+            &:hover {
+                color: $primary-color-six;
+            }
+        }
+    }
+    .post_date {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.single-blog-img {
+    .single-blog-date {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.post-category {
+    .single-category:hover {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.blog-sidebar-title {
+    &::before {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.comment-title {
+    &::before {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);;
+    }
+}
+.popular-tags {
+    a {
+        &:hover {
+            background: $gradient-color-bg-six;
+            background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+            background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+            background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+            background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        }
+    }
+}
+.pagination-nav {
+    li {
+        a {
+            &:hover {
+                background: $gradient-color-bg-six;
+                background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+                background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+                background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+                background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+            }
+        }
+    }
+    li.active a {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.top-banner-area {
+    &::before {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.single-contact-info {
+    i {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.error-page-content {
+    background: $gradient-color-bg-six;
+    background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+}
+.subscribe-form {
+    .subscribe-btn {
+        background: $gradient-color-bg-six;
+        background: -webkit-linear-gradient(left, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -o-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: -moz-linear-gradient(right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+        background: linear-gradient(to right, $gradient-color-left-bg-six, $gradient-color-right-bg-six);
+    }
+}
+.single-user {
+    i {
+        color: $primary-color-six;
+    }
+}
+.screenshot-carousel .owl-prev i,
+.screenshot-carousel-two .owl-prev i {
+    color: $primary-color-six;
+}
+.screenshot-carousel .owl-next i,
+.screenshot-carousel-two .owl-next i {
+    color: $primary-color-six;
+}
+.owl-dots {
+    .owl-dot.active span {
+        background: $primary-color-six !important;
+    }
+}
+.testimonial-carousel {
+    .owl-dots {
+        .owl-dot.active span {
+            background: $primary-color-six !important;
+        }
+    }
+}
+.single-post-admin a {
+    color: $primary-color-six;
+}
+.post-tag-media {
+    .tag {
+        li {
+            a {
+                color: $primary-color-six;
+            }
+        }
+    }
+}
+.post-social-media {
+    a {
+        &:hover {
+            color: $primary-color-six;
+        }
+    }
+}
+.search-box {
+    .search-btn {
+        color: $primary-color-six;
+    }
+}
+.single-recent-post {
+    h5 {
+        a {
+            &:hover {
+                color: $primary-color-six;
+            }
+        }
+    }
+}
+.all-comments-content {
+    .comment {
+        .replay {
+            color: $primary-color-six;
+        }
+    }
+}
+.comment-form {
+    .form-control {
+        &:hover {
+            border-bottom: 1px solid $primary-color-six;
+        }
+    }
+}
+.contact-form {
+    .form-control {
+        &:hover {
+            border-bottom: 1px solid $primary-color-six;
+        }
+    }
+}
+.contact-info {
+    ul {
+        li {
+            i {
+                color: $primary-color-six;
+            }
+        }
+    }
+}
+.error-text {
+    .back-btn {
+        color: $primary-color-six;
+        &:hover {
+            background-color: $primary-color-six;
+        }
+    }
+}
+.back-top-button {
+    i {
+        color: $primary-color-six;
+    }
+}
+.screenshot-slider {
+    .swiper-pagination {
+        .swiper-pagination-bullet {
+            background-color: $primary-color-six;
+        }
+    }
+}

@@ -1,0 +1,400 @@
+.gradient-bg {
+  background: #ef5a26;
+  background: linear-gradient(to right, #ef5a26);
+}
+
+.default-button {
+  background: #ef5a26;
+  background: linear-gradient(to right, #ef5a26);
+}
+.default-button:hover {
+  box-shadow: 0 0 10px #ef5a26;
+}
+
+.section-title h2::after {
+  background: #ef5a26;
+  background: linear-gradient(to right, #ef5a26, #ef5a26);
+}
+.section-title h2::before {
+  background: #ef5a26;
+  background: linear-gradient(to right, #ef5a26, #ef5a26);
+}
+
+/* Preloader style */
+.preloader-wrap {
+  background: #fff none repeat scroll 0 0;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+.preloader-wrap .preloader {
+  left: 50%;
+  margin: -20px 0 0 -20px;
+  position: absolute;
+  top: 50%;
+}
+
+.preloader {
+  position: relative;
+  width: 65px;
+  margin: 6em auto;
+}
+.preloader span {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  width: 9px;
+  height: 5px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.1);
+  animation: preloader 2s infinite ease-in-out;
+}
+.preloader span:nth-child(2) {
+  left: 11px;
+  animation-delay: 200ms;
+}
+.preloader span:nth-child(3) {
+  left: 22px;
+  animation-delay: 400ms;
+}
+.preloader span:nth-child(4) {
+  left: 33px;
+  animation-delay: 600ms;
+}
+.preloader span:nth-child(5) {
+  left: 44px;
+  animation-delay: 800ms;
+}
+.preloader span:nth-child(6) {
+  left: 55px;
+  animation-delay: 1000ms;
+}
+@keyframes preloader {
+  0% {
+    height: 5px;
+    transform: translateY(0);
+    background: rgba(0, 0, 0, 0.1);
+  }
+  25% {
+    background: #ef5a26;
+    background: linear-gradient(to right, #ef5a26, #ef5a26);
+    height: 30px;
+    transform: translateY(15px);
+  }
+  50%, 100% {
+    height: 5px;
+    transform: translateY(0);
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
+/* End Preloader style */
+@media only screen and (min-width: 768px) {
+  .top-menu.menu-shrink {
+    background: #ef5a26;
+    background: linear-gradient(to right, #ef5a26, #ef5a26);
+  }
+}
+.navbar-white .navbar-nav .nav-item .nav-link:focus, .navbar-white .navbar-nav .nav-item .nav-link:hover {
+  color: #ef5a26 !important;
+}
+.navbar-white .navbar-nav .nav-item .nav-link::before {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+.navbar-white .navbar-nav .nav-item .active > a, .navbar-white .navbar-nav .nav-item .active > a:focus, .navbar-white .navbar-nav .nav-item .active > a:hover {
+  color: #ef5a26 !important;
+}
+
+.slider-item-img-bg::before {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.item-img-bg::after {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.homes-bg-img::after {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.particle-bg {
+  position: relative;
+}
+.particle-bg::after {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.video-bg {
+  position: relative;
+}
+.video-bg::after {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.app-about-text h3::after {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+.app-about-text ul li i {
+  color: #ef5a26;
+}
+
+.single-hiw-feature i {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+.single-hiw-feature i:hover i {
+  box-shadow: 0 0 10px #ef5a26;
+}
+
+.video-demo-content::before {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.single-feature::after {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+.single-feature .feature-icon {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.counter-stats::after {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.screenshot-item:hover .screenshot-image::before {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.screenshots-modal .close {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+.screenshots-modal .close:hover, .screenshots-modal .close:focus {
+  box-shadow: 0 0 10px #ef5a26;
+}
+
+.screenshot-details-text .title::after {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+.screenshot-details-text ul li i {
+  color: #ef5a26;
+}
+
+.testimonial-section::after {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.testimonial-item .icofont-quote-left {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+.testimonial-item .pic {
+  box-shadow: 0 0 2px #ef5a26;
+}
+
+.single-price-package .price-header .price-value {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.purchase-btn::before {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.personal-price-package .purchase-btn {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.single-price-package:hover .purchase-btn {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.faq-content .faq-title::before {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+.faq-content .faq-title.active {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.accordion__item.active .accordion-header {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.single-member .overlay {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.app-download-section::after {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.single-blog-post .blog-date {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+.single-blog-post .blog-title a:hover {
+  color: #ef5a26;
+}
+.single-blog-post .post-admin a {
+  color: #ef5a26;
+}
+.single-blog-post:hover .read-more-btn {
+  color: #ef5a26;
+}
+
+.single-blog-post-two .blog-title a:hover {
+  color: #ef5a26;
+}
+.single-blog-post-two .post_date {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.single-blog-img .single-blog-date {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.post-category .single-category:hover {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.blog-sidebar-title::before {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.comment-title::before {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.popular-tags a:hover {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.pagination-nav li a:hover {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+.pagination-nav li.active a {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.top-banner-area::before {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.single-contact-info i {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.error-page-content {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.subscribe-form .subscribe-btn {
+  background: #ef5a26;
+  background: linear-gradient(to right, );
+}
+
+.single-user i {
+  color: #ef5a26;
+}
+
+.screenshot-carousel .owl-prev i,
+.screenshot-carousel-two .owl-prev i {
+  color: #ef5a26;
+}
+
+.screenshot-carousel .owl-next i,
+.screenshot-carousel-two .owl-next i {
+  color: #ef5a26;
+}
+
+.owl-dots .owl-dot.active span {
+  background: #ef5a26 !important;
+}
+
+.testimonial-carousel .owl-dots .owl-dot.active span {
+  background: #ef5a26 !important;
+}
+
+.single-post-admin a {
+  color: #ef5a26;
+}
+
+.post-tag-media .tag li a {
+  color: #ef5a26;
+}
+
+.post-social-media a:hover {
+  color: #ef5a26;
+}
+
+.search-box .search-btn {
+  color: #ef5a26;
+}
+
+.single-recent-post h5 a:hover {
+  color: #ef5a26;
+}
+
+.all-comments-content .comment .replay {
+  color: #ef5a26;
+}
+
+.comment-form .form-control:hover {
+  border-bottom: 1px solid #ef5a26;
+}
+
+.contact-form .form-control:hover {
+  border-bottom: 1px solid #ef5a26;
+}
+
+.contact-info ul li i {
+  color: #ef5a26;
+}
+
+.error-text .back-btn {
+  color: #ef5a26;
+}
+.error-text .back-btn:hover {
+  background-color: #ef5a26;
+}
+
+.back-top-button i {
+  color: #ef5a26;
+}
+
+.screenshot-slider .swiper-pagination .swiper-pagination-bullet {
+  background-color: #ef5a26;
+}/*# sourceMappingURL=color-default.css.map */
